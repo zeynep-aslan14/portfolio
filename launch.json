@@ -1,0 +1,35 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch index.html in Chrome",
+            "type": "chrome",
+            "request": "launch",
+            "file": "${workspaceFolder}/index.html",
+            "runtimeArgs": ["--new-window"],
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch index.html in Edge",
+            "type": "msedge",
+            "request": "launch",
+            "file": "${workspaceFolder}/index.html",
+            "runtimeArgs": ["--new-window"],
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch via Live Server (Chrome)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://127.0.0.1:5500/index.html",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch via Live Server (Edge)",
+            "type": "msedge",
+            "request": "launch",
+            "url": "http://127.0.0.1:5500/index.html",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
