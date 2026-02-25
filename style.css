@@ -12,7 +12,7 @@ body {
     color: #f6f6f6;
     line-height: 1.6;
     margin: 0;
-    background-image: url('assets/flowers/calla lily flower.jpg');
+    background-image: url('calla lily flower.jpg');
     background-size: cover; /* fills screen but maintains aspect ratio */
     background-position: center; /* keeps the important part in view */
     background-repeat: no-repeat;
@@ -247,4 +247,5 @@ h1,h2,h3,p {
   h2 { font-size: 4rem; }
   h3 { font-size: 3rem; }
   p { font-size: 1.9rem; }
+
 }
